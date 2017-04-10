@@ -9,7 +9,7 @@ How to install it.
 ```git clone https://github.com/d-gapps/QtTextFields.git && cd QtTextField/ && mkdir build && cd build && /path/to/qmake -makefile .. && make install```
 
 *using qpm*
-```qpm install io.qttextfields```
+```qpm install io.gapps.qttextfields```
 
 How to use it.
 --------------
@@ -18,7 +18,7 @@ How to use it.
         .
         .
         .
-import io.qttextfields 1.0
+import io.gapps.qttextfields 1.0
 
 ApplicationWindow {
     visible: true
@@ -37,7 +37,7 @@ ApplicationWindow {
 		.
 		.
 		.
-import io.qttextfields 1.0
+import io.gapps.qttextfields 1.0
 
 ApplicationWindow {
     visible: true
@@ -56,7 +56,7 @@ ApplicationWindow {
 		.
 		.
 		.
-import io.qttextfields 1.0
+import io.gapps.qttextfields 1.0
 
 ApplicationWindow {
     visible: true
@@ -75,7 +75,7 @@ ApplicationWindow {
 		.
 		.
 		.
-import io.qttextfields 1.0
+import io.gapps.qttextfields 1.0
 
 ApplicationWindow {
     visible: true
@@ -94,7 +94,7 @@ ApplicationWindow {
 		.
 		.
 		.
-import io.qttextfields 1.0
+import io.gapps.qttextfields 1.0
 
 ApplicationWindow {
     visible: true
