@@ -8,3 +8,6 @@ Version 1.0
 * added BaseTextField.qml
 * added phonecodes.js
 * added qmldir
+* renaming qttextfield.pro to qttextfields.pro
+* moving all qml files and qmldir to src directory
+* Changing root qml component TextField to BaseTextField
