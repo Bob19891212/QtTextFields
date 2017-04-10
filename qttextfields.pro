@@ -8,6 +8,7 @@ DISTFILES =                   \
     src/DecimalTextField.qml  \
     src/EmailTextField.qml    \
     src/PhoneTextField.qml    \
+    src/AlphabetTextField.qml \
     src/phonecodes.js
 
 unix {
