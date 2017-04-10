@@ -26,4 +26,5 @@ Version 1.2
 Version 1.3
 -----------
 * src/QtTextFields.qrc to src/io_qttextfields.qrc
-* changing qml namespace
+* changing namespace to io.gapps.qttextfields
+* io_qttextfields.pri to io_gapps_qttextfields.pri and src/io_qttextfields.pri src/io_gapps_qttextfields.qrc
