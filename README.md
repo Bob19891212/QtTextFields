@@ -5,10 +5,33 @@ in your projects. >= qt5.8
 
 How to install it.
 -------------------
-```cd /path/to/QtTextField/ && mkdir build && cd build && /path/to/qmake -makefile .. && make install```
+*using git*
+```git clone https://github.com/d-gapps/QtTextFields.git && cd QtTextField/ && mkdir build && cd build && /path/to/qmake -makefile .. && make install```
+
+*using qpm*
+```qpm install QtTextFields```
 
 How to use it.
 --------------
+*AlphabetTextField*
+```qml
+        .
+        .
+        .
+import QtTextFields 1.0
+
+ApplicationWindow {
+    visible: true
+    width: 640
+    height: 480
+    title: qsTr("Hello World")
+
+    AlphabetTextField {
+        anchors.centerIn: parent
+    }
+}
+```
+
 *PasswordTextField*
 ```qml
 		.
