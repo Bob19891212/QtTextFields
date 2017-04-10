@@ -18,7 +18,7 @@ How to use it.
         .
         .
         .
-import io.gapps.qttextfields 1.4
+import io.gapps.qttextfields 1.5
 
 ApplicationWindow {
     visible: true
@@ -37,7 +37,7 @@ ApplicationWindow {
 		.
 		.
 		.
-import io.gapps.qttextfields 1.4
+import io.gapps.qttextfields 1.5
 
 ApplicationWindow {
     visible: true
@@ -56,7 +56,7 @@ ApplicationWindow {
 		.
 		.
 		.
-import io.gapps.qttextfields 1.4
+import io.gapps.qttextfields 1.5
 
 ApplicationWindow {
     visible: true
@@ -75,7 +75,7 @@ ApplicationWindow {
 		.
 		.
 		.
-import io.gapps.qttextfields 1.4
+import io.gapps.qttextfields 1.5
 
 ApplicationWindow {
     visible: true
@@ -94,7 +94,7 @@ ApplicationWindow {
 		.
 		.
 		.
-import io.gapps.qttextfields 1.4
+import io.gapps.qttextfields 1.5
 
 ApplicationWindow {
     visible: true

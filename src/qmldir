@@ -1,8 +1,8 @@
 module io.gapps.qttextfields
-DecimalTextField 1.4 DecimalTextField.qml
-EmailTextField 1.4 EmailTextField.qml
-PasswordTextField 1.4 PasswordTextField.qml
-PhoneTextField 1.4 PhoneTextField.qml
-PhoneCodes 1.4 phonecodes.js
+DecimalTextField 1.5 DecimalTextField.qml
+EmailTextField 1.5 EmailTextField.qml
+PasswordTextField 1.5 PasswordTextField.qml
+PhoneTextField 1.5 PhoneTextField.qml
+PhoneCodes 1.5 phonecodes.js
 depends QtQuick 2.5
 depends QtQuick.Controls 1.4
