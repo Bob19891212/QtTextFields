@@ -1,5 +1,10 @@
 TEMPLATE = aux
 TARGET = io.gapps.qttextfields
+TARGETPATH = /io/gapps/qttextfields
+
+win32 {
+	TARGETPATH = $$TARGETPATH$$replace(uri, /, \\.)
+}
 
 DISTFILES =                   \
     src/qmldir                \
@@ -15,7 +20,7 @@ unix {
     installPath = $$[QT_INSTALL_QML]$$replace(uri, \\., /)
 }
 
-target.path = $$installPath/$$TARGET
+target.path = $$installPath$$TARGETPATH
 target.files = $$DISTFILES
 
 INSTALLS += target
