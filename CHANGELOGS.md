@@ -11,3 +11,19 @@ Version 1.0
 * renaming qttextfield.pro to qttextfields.pro
 * moving all qml files and qmldir to src directory
 * Changing root qml component TextField to BaseTextField
+
+Version 1.1
+-----------
+* adding AlphabetTextField.qml file
+* updating how to install QtTextFields
+* adding support for qpm
+
+Version 1.2
+-----------
+* changing package namespace
+* changing QtTextFields.pri to io_qttextfields.pri
+
+Version 1.3
+-----------
+* src/QtTextFields.qrc to src/io_qttextfields.qrc
+* changing qml namespace

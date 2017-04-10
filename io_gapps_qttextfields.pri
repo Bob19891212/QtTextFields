@@ -1,5 +1,5 @@
 RESOURCES += \
-    $$PWD/src/QtTextFields.qrc
+    $$PWD/src/io_gapps_qttextfields.qrc
 
 OTHER_FILES +=             \
 	$$PWD/AUTHORS.md       \

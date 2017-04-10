@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/io/QtTextFields">
+    <qresource prefix="/io/gapps/QtTextFields">
         <file>qmldir</file>
         <file>phonecodes.js</file>
         <file>PhoneTextField.qml</file>
