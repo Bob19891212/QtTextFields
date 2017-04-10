@@ -1,5 +1,5 @@
 TEMPLATE = aux
-TARGET = QtTextFields
+TARGET = io.qttextfields
 
 DISTFILES =                   \
     src/qmldir                \
