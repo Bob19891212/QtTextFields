@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/QtTextFields">
+        <file>qmldir</file>
+        <file>phonecodes.js</file>
+        <file>PhoneTextField.qml</file>
+        <file>PasswordTextField.qml</file>
+        <file>EmailTextField.qml</file>
+        <file>DecimalTextField.qml</file>
+        <file>BaseTextField.qml</file>
+        <file>AlphabetTextField.qml</file>
+    </qresource>
+</RCC>
