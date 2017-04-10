@@ -9,7 +9,7 @@ How to install it.
 
 How to use it.
 --------------
-###PasswordTextField
+*PasswordTextField*
 ```qml
 		.
 		.
@@ -28,7 +28,7 @@ ApplicationWindow {
 }
 ```
 
-###EmailTextField
+*EmailTextField*
 ```qml
 		.
 		.
@@ -47,7 +47,7 @@ ApplicationWindow {
 }
 ```
 
-###DecimalTextField
+*DecimalTextField*
 ```qml
 		.
 		.
@@ -66,7 +66,7 @@ ApplicationWindow {
 }
 ```
 
-###PhoneTextField
+*PhoneTextField*
 ```qml
 		.
 		.
