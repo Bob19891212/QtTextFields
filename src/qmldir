@@ -1,4 +1,4 @@
-module io.qttextfields
+module io.gapps.qttextfields
 DecimalTextField 1.0 DecimalTextField.qml
 EmailTextField 1.0 EmailTextField.qml
 PasswordTextField 1.0 PasswordTextField.qml

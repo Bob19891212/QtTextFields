@@ -1,5 +1,5 @@
 TEMPLATE = aux
-TARGET = io.qttextfields
+TARGET = io.gapps.qttextfields
 
 DISTFILES =                   \
     src/qmldir                \
