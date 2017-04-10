@@ -40,4 +40,9 @@ Item {
             }
         }
     }
+
+    function isValid() {
+        return PhoneCodes.isCodeValid(parentphoneedittext.countryCode)
+                && /^(\+[0-9]{6,14})$/i.test(phoneedittext.text);
+    }
 }
