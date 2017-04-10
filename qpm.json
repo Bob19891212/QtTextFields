@@ -1,5 +1,5 @@
 {
-  "name": "io.qttextfields",
+  "name": "io.gapps.qttextfields",
   "author": {
     "name": "Leonardo Javier Esparis Meza",
     "email": "leoxnidas.c.14@gmail.com"
@@ -14,5 +14,5 @@
   "dependencies": [
   ],
   "license": "GPL_3_0",
-  "priFilename": "io_qttextfields.pri"
+  "priFilename": "io_gapps_qttextfields.pri"
 }
