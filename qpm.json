@@ -1,0 +1,18 @@
+{
+  "name": "QtTextFields",
+  "author": {
+    "name": "Leonardo Javier Esparis Meza",
+    "email": "leoxnidas.c.14@gmail.com"
+  },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/d-gapps/QtTextfields.git"
+  },
+  "version": {
+    "label": "1.0"
+  },
+  "dependencies": [
+  ],
+  "license": "GPL_3_0",
+  "priFilename": "QtTextFields.pri"
+}
