@@ -1,5 +1,5 @@
 {
-  "name": "QtTextFields",
+  "name": "io.qttextfields",
   "author": {
     "name": "Leonardo Javier Esparis Meza",
     "email": "leoxnidas.c.14@gmail.com"
@@ -14,5 +14,5 @@
   "dependencies": [
   ],
   "license": "GPL_3_0",
-  "priFilename": "QtTextFields.pri"
+  "priFilename": "io_qttextfields.pri"
 }
