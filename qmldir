@@ -1,0 +1,8 @@
+module QtTextFields
+DecimalTextField 1.0 DecimalTextField.qml
+EmailTextField 1.0 EmailTextField.qml
+PasswordTextField 1.0 PasswordTextField.qml
+PhoneTextField 1.0 PhoneTextField.qml
+PhoneCodes 1.0 phonecodes.js
+depends QtQuick 2.5
+depends QtQuick.Controls 1.4
