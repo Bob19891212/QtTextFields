@@ -8,30 +8,8 @@ How to install it.
 *using git*
 ```git clone https://github.com/d-gapps/QtTextFields.git && cd QtTextField/ && mkdir build && cd build && /path/to/qmake -makefile .. && make install```
 
-*using qpm*
-```qpm install io.gapps.qttextfields```
-
 How to use it.
 --------------
-*AlphabetTextField*
-```qml
-        .
-        .
-        .
-import io.gapps.qttextfields 1.5
-
-ApplicationWindow {
-    visible: true
-    width: 640
-    height: 480
-    title: qsTr("Hello World")
-
-    AlphabetTextField {
-        anchors.centerIn: parent
-    }
-}
-```
-
 *PasswordTextField*
 ```qml
 		.
@@ -46,65 +24,60 @@ ApplicationWindow {
     title: qsTr("Hello World")
 
     PasswordTextField {
+    	id: password
         anchors.centerIn: parent
+	placeholderText: "password"
     }
-}
-```
+    
+    CheckBox {
+        id: checkbox
+        anchors.left: password.right
+        anchors.leftMargin: 30
+        anchors.top: password.top
 
-*EmailTextField*
-```qml
-		.
-		.
-		.
-import io.gapps.qttextfields 1.5
-
-ApplicationWindow {
-    visible: true
-    width: 640
-    height: 480
-    title: qsTr("Hello World")
-
+        onCheckedChanged: {
+            if(checkbox.checked)
+                password.showPassword()
+            else
+                password.hidePassword()
+        }
+    }
+    
     EmailTextField {
-        anchors.centerIn: parent
+    	id: email
+	text: "leoxnidas.c.14@gmail.com"
+	placeholderText: "email"
+        anchors.top: password.bottom
+	anchors.topMargin: 10
     }
-}
-```
-
-*DecimalTextField*
-```qml
-		.
-		.
-		.
-import io.gapps.qttextfields 1.5
-
-ApplicationWindow {
-    visible: true
-    width: 640
-    height: 480
-    title: qsTr("Hello World")
-
+    
+    AlphabetTextField {
+    	id: alpha
+	placeholderText: "words"
+        anchors.top: email.bottom
+	anchors.topMargin: 10
+    }
+    
     DecimalTextField {
-        anchors.centerIn: parent
+    	id: decimal
+	placeholderText: "numbers"
+        anchors.top: alpha.bottom
+	anchors.topMargin: 10
     }
-}
-```
-
-*PhoneTextField*
-```qml
-		.
-		.
-		.
-import io.gapps.qttextfields 1.5
-
-ApplicationWindow {
-    visible: true
-    width: 640
-    height: 480
-    title: qsTr("Hello World")
-
+    
     PhoneTextField {
-        countryCode: PhoneCodes.VEN
-        anchors.centerIn: parent
+    	id: phone
+        anchors.top: decimal.bottom
+	anchors.topMargin: 10
+	countryCode: PhoneCodes.USA
+    }
+    
+    Component.onCompleted: {
+    	console.log(email.isValid())
+	console.log(password.isValid())
+	console.log(alpha.isValid())
+	console.log(email.isValid())
+	console.log(phone.isValid())
     }
 }
 ```
