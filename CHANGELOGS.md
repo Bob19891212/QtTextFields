@@ -32,3 +32,9 @@ Version 1.3
 Version 1.4
 ------------
 * updating to version 1.4
+
+Version 1.5
+------------
+* updating prefix to /io/gapps/qttextfields
+* updating install path to io/gapps/qttextfields
+* updating to version 1.5
